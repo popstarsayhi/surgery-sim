@@ -38,8 +38,8 @@ const DEFAULT_FORM = {
     nurseRatios: { day: 4, evening: 4, night: 2 },
     scheduledNurses: { day: 8, evening: 4, night: 2 },
 
-    nDays: 90,
-    nRuns: 500,
+    nDays: 30,
+    nRuns: 100,
     seed: 42,
 };
 

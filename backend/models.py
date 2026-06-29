@@ -125,8 +125,8 @@ class SimulationInput(BaseModel):
     scheduled_nurses: ScheduledNurses
 
     # Monte Carlo settings
-    n_days: int = Field(default=90, ge=30, le=365)
-    n_runs: int = Field(default=500, ge=100, le=2000)
+    n_runs: int = Field(default=100, ge=10, le=500)
+    n_days: int = Field(default=30, ge=7, le=90)
     seed: int = Field(default=42)
 
 
